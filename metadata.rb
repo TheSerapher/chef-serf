@@ -1,0 +1,16 @@
+name              'serf'
+maintainer        'Sebastian Grewe'
+maintainer_email  'sebastian.grewe@gmail.com'
+license           'Apache 2.0'
+description       'Skeleton cookbook to use as a bsae for new cookbooks.'
+long_description  IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+version           '1.0.0'
+
+supports 'ubuntu'
+supports 'debian'
+supports 'centos'
+supports 'rhel'
+
+depends 'ark'
+depends 'runit'
+depends 'partial_search'

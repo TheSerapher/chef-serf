@@ -1,0 +1,9 @@
+{
+  "id": "cluster-01",
+  "encrypt_key": {
+    "encrypted_data": "q24OAw6H7cRqCg78RztSaJwwfDvNumjyEepl2fKfS4J1e3JB4Co95Z7swYaJ\nAoRM\n",
+    "iv": "0r3EjAjSSJH+O9rnV2ejow==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}

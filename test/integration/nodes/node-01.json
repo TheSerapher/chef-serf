@@ -1,0 +1,26 @@
+{
+    "id": "node-01-debian-74",
+    "name": "node-01-debian-74",
+    "chef_environment": "_default",
+    "json_class": "Chef::Node",
+    "automatic": {
+    },
+    "normal": {
+      "ipaddress": "192.168.33.33",
+      "tags": [
+        "serf-cluter-node"
+      ],
+      "roles": [
+        "serf-cluster"
+      ]
+    },
+    "chef_type": "node",
+    "default": {
+      "comment": "These node declarations are used for node search"
+    },
+    "override": {
+    },
+    "run_list": [
+      "role[serf-cluster]"
+    ]
+}

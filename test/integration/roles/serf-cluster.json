@@ -1,0 +1,23 @@
+{
+  "name": "serf-cluster",
+  "description": "Create a sample Serf Cluster for Loadbalancers.",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "serf": {
+      "data_bag": { "item_name": "cluster-01" },
+      "config": {
+        "options": {
+          "interface": "eth1"
+        }
+      }
+    }
+  },
+  "override_attributes": {
+  },
+  "run_list": [
+    "recipe[serf::default]"
+  ],
+  "env_run_lists": {
+  }
+}
